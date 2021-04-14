@@ -1,0 +1,11 @@
+<doctype html>
+    <form method="POST" action="/deleting">
+
+        {% for each in value %}
+
+        <p> {{each}} <input name="inputtext" type="text"><br> </p>
+        {%endfor%}
+
+        <p><input type="submit" name="submit_button" value="DELETE"></p>
+    </form>
+</doctype>
