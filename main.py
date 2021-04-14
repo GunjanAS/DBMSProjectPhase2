@@ -10,7 +10,7 @@ app.secret_key = "secret key"
 
 conn = mariadb.connect(
     user="root",
-    password="MasterDream123!",
+    password="", #netidpassword
     host="172.16.122.9",
     database="PROJECTDB")
 
